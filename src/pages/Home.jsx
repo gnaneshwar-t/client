@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { useNavigate, Link } from 'react-router-dom';
-import { FaUser, FaUsers, FaLightbulb, FaEnvelopeOpenText, FaSignOutAlt } from "react-icons/fa";
+import { FaUser, FaUsers, FaRegLightbulb, FaEnvelopeOpenText, FaSignOutAlt } from "react-icons/fa";
 
 const Home = () => {
   const { user, logout } = useContext(AuthContext);
