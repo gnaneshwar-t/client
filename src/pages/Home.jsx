@@ -31,7 +31,7 @@ const Home = () => {
         </Link>
 
         <Link to="/suggestions">
-          <FaLightbulb className="icon" /> Suggestions
+          <FaRegLightbulb className="icon" /> Suggestions
         </Link>
 
         <Link to="/requests">
